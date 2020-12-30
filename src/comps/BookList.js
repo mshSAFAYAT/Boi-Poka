@@ -6,7 +6,7 @@ console.log(props.books);
   return (
     <div className="container">
       <div className="row">
-        <div className="col s20">
+        <div className="col s16">
          {props.books.map((book, i) => {
               //console.log(book)
             return <Book data={book} key={i} />;

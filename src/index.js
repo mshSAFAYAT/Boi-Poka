@@ -11,7 +11,7 @@ ReactDOM.render(
       <Navbar />
       <div>
         <Route path='/' exact={true} component={App} />
-        <Route path='/volumes/:id' exact={true} component={BookDetails}/>
+        <Route path='/volumes/:id' exact={true} component={BookDetails} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

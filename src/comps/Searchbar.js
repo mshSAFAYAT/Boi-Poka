@@ -2,7 +2,7 @@ import React from "react";
 
 const Searchbar = (props) => {
   return (
-    <div style={{alignItems:"center"}}>
+    <div style={{ alignItems: "center" }}>
       <div className="container">
         <div className="row">
           <section className="col s6 offset-s4">

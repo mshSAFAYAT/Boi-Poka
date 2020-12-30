@@ -7,17 +7,15 @@ let totalItems = 0;
 const getBooksByTerm = (
   SearchTerm,
   setBooks,
-  Sort,
   page_number,
   setTotalPages
 ) => {
   GBA.get("/volumes", {
     params: {
       q: SearchTerm,
-      orderBy: Sort,
       //key: "AIzaSyCQ5_XYD4kw5l3KVFTpfAWFqssOBsTRC4M",
       startIndex: page_number,
-      maxResults: 20,
+      maxResults: 16,
     },
   }).then((response) => {
     console.log(response.data.totalItems);

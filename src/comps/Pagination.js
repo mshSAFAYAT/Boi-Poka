@@ -25,7 +25,8 @@ const Pagination = (props) => {
         );
     }
     return (
-        <div className="container">
+        <div className="container" style={{position: 'absolute', left: '50%', right: '50%', textAlign:"center",
+        transform: 'translate(-50%, -50%)'}}>
             <div className="row">{page_links}</div>
         </div>
     );
